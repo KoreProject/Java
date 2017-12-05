@@ -3,22 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package Modulo4;
 
 /**
- *
+ * 
  * @author Ing. Abdon Cruz
  */
-public class Break {
-
+public class Continue {
     public static void main(String[] args) {
-        int cuenta; //la variable de control tambien se usa cuando termina el ciclo
-        for (cuenta = 0; cuenta < 10; cuenta++) {
+        for (int cuenta = 0; cuenta <= 10; cuenta++) {
             if (cuenta == 5) {
-                break;
+                continue;
             }
-            System.out.println("Cuenta es: " + cuenta);
+            System.out.println("La cuenta es: " + cuenta);
+            System.out.println("Impresion despues del valor");
         }
-        System.out.println("Salio del ciclo cuenta = " + cuenta);
     }
 }
