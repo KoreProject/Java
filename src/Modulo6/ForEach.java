@@ -17,6 +17,6 @@ public class ForEach {
         for (int numero:arreglo) {
             total += numero;
         }
-        System.out.println("El valor de la suma es: " + total);
+        System.out.println("El valor de la suma es " + total);
     }
 }
