@@ -41,7 +41,7 @@ public class Figuras extends JPanel {
                     int anchoOval = 50 + i * 10;
                     int altoOval = 50 + i * 10;
                     g.drawOval(xOval, yOval, anchoOval, altoOval);
-                    break;                    
+                    break;
             }
         }
     }
